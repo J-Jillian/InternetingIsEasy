@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
+
 h1,
 p {
   background-color: #dde0e3; /* Light gray */
@@ -16,7 +18,7 @@ strong {
 
 h1 {
   padding: 50px;
-  border: 1px solid #5d6063;
+  border-bottom: 1px solid #5d6063;
 }
 
 p {
@@ -32,12 +34,12 @@ strong {
 
 div {
   color: #fff;
-  background-color: #4a90e2;
+  background-color: #5995da;
   font-weight: bold;
   padding: 20px;
   text-align: center;
-
-  width: 200px;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
   box-sizing: border-box;
   margin: 20px auto; /* Vertical  Horizontal */
 }
@@ -47,6 +49,6 @@ div {
   width: 200px;
 }
 
-body {
-  text-align: center;
+strong {
+  margin: 50px;
 }
